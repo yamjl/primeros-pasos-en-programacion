@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador de Vocales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+   <h1>Bienvenido al Encriptador</h1>
+</header> 
+    <div class="container">
+        <div class="column">
+            <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+            <button onclick="encriptar()">Encriptar</button>
+        <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <div class="column2">
+            <textarea id="resultText" readonly></textarea>
+            <button onclick="copiar()" class= "buttons__copiar">Copiar</button>
+        </div>
+    </div>
+   
+<footer class="footer">
+    <p> De Yamila Jacqueline Lezcano</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
